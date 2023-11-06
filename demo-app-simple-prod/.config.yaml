@@ -2,5 +2,5 @@
     name: demo-app-simple
     autoPromote: false
     images:
-      - image: docker.io/niiku/gitops-nginx-demo
+      - image: docker.io/niiku/kargo-demo-app
         key: kargo-demo.image.tag
