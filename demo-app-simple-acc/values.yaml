@@ -1,0 +1,23 @@
+kargo-demo:
+  replicaCount: 1
+  image:
+    repository: docker.io/niiku/gitops-nginx-demo
+    tag: v0.19.0
+  network:
+    http:
+      servicePort: 8080
+      ingress:
+        host: demo-app-simple-acc.apps.baloise.dev
+  readinessProbe:
+    httpGet:
+      path: /
+      port: 8080
+    initialDelaySeconds: 15
+    timeoutSeconds: 1
+  resources:
+    requests:
+      cpu: 10m
+      memory: 16Mi
+    limits:
+      cpu: 1
+      memory: 32Mi
