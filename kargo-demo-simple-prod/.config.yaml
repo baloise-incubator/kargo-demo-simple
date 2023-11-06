@@ -1,5 +1,5 @@
   kargo: 
-    name: demo-app-simple
+    name: kargo-demo-simple
     autoPromote: false
     images:
       - image: docker.io/niiku/kargo-demo-app

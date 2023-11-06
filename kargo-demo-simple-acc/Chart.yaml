@@ -1,5 +1,5 @@
 apiVersion: v2
-name: demo-app-simple-test
+name: kargo-demo-simple-acc
 version: 1.0.0
 dependencies:
   - name: generic-chart

@@ -7,7 +7,7 @@ kargo-demo:
     http:
       servicePort: 8080
       ingress:
-        host: demo-app-simple-acc.apps.baloise.dev
+        host: kargo-demo-simple.apps.baloise.dev
   readinessProbe:
     httpGet:
       path: /
