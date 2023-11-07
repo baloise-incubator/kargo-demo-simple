@@ -2,7 +2,7 @@ kargo-demo:
   replicaCount: 1
   image:
     repository: docker.io/niiku/kargo-demo-app
-    tag: v0.6.0
+    tag: v0.5.0
   network:
     http:
       servicePort: 8080
